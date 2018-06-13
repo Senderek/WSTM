@@ -1,0 +1,2169 @@
+[
+  {
+    "__docId__": 1,
+    "kind": "external",
+    "name": "Infinity",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Infinity",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Infinity",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 2,
+    "kind": "external",
+    "name": "NaN",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/NaN",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~NaN",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 3,
+    "kind": "external",
+    "name": "undefined",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/undefined",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~undefined",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 4,
+    "kind": "external",
+    "name": "null",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/null",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~null",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 5,
+    "kind": "external",
+    "name": "Object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 6,
+    "kind": "external",
+    "name": "object",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Object",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~object",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 7,
+    "kind": "external",
+    "name": "Function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 8,
+    "kind": "external",
+    "name": "function",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~function",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 9,
+    "kind": "external",
+    "name": "Boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 10,
+    "kind": "external",
+    "name": "boolean",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Boolean",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~boolean",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 11,
+    "kind": "external",
+    "name": "Symbol",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Symbol",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Symbol",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 12,
+    "kind": "external",
+    "name": "Error",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Error",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Error",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 13,
+    "kind": "external",
+    "name": "EvalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/EvalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~EvalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 14,
+    "kind": "external",
+    "name": "InternalError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/InternalError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~InternalError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 15,
+    "kind": "external",
+    "name": "RangeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RangeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RangeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 16,
+    "kind": "external",
+    "name": "ReferenceError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ReferenceError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ReferenceError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 17,
+    "kind": "external",
+    "name": "SyntaxError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/SyntaxError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~SyntaxError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 18,
+    "kind": "external",
+    "name": "TypeError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/TypeError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~TypeError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 19,
+    "kind": "external",
+    "name": "URIError",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/URIError",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~URIError",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 20,
+    "kind": "external",
+    "name": "Number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 21,
+    "kind": "external",
+    "name": "number",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~number",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 22,
+    "kind": "external",
+    "name": "Date",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Date",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Date",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 23,
+    "kind": "external",
+    "name": "String",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~String",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 24,
+    "kind": "external",
+    "name": "string",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/String",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~string",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 25,
+    "kind": "external",
+    "name": "RegExp",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/RegExp",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~RegExp",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 26,
+    "kind": "external",
+    "name": "Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 27,
+    "kind": "external",
+    "name": "Int8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 28,
+    "kind": "external",
+    "name": "Uint8Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 29,
+    "kind": "external",
+    "name": "Uint8ClampedArray",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint8ClampedArray",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint8ClampedArray",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 30,
+    "kind": "external",
+    "name": "Int16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 31,
+    "kind": "external",
+    "name": "Uint16Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint16Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint16Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 32,
+    "kind": "external",
+    "name": "Int32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Int32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Int32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 33,
+    "kind": "external",
+    "name": "Uint32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Uint32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Uint32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 34,
+    "kind": "external",
+    "name": "Float32Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float32Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float32Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 35,
+    "kind": "external",
+    "name": "Float64Array",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Float64Array",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Float64Array",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 36,
+    "kind": "external",
+    "name": "Map",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Map",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Map",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 37,
+    "kind": "external",
+    "name": "Set",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Set",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Set",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 38,
+    "kind": "external",
+    "name": "WeakMap",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakMap",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakMap",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 39,
+    "kind": "external",
+    "name": "WeakSet",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/WeakSet",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~WeakSet",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 40,
+    "kind": "external",
+    "name": "ArrayBuffer",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/ArrayBuffer",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~ArrayBuffer",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 41,
+    "kind": "external",
+    "name": "DataView",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/DataView",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~DataView",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 42,
+    "kind": "external",
+    "name": "JSON",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/JSON",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~JSON",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 43,
+    "kind": "external",
+    "name": "Promise",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Promise",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Promise",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 44,
+    "kind": "external",
+    "name": "Generator",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Generator",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Generator",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 45,
+    "kind": "external",
+    "name": "GeneratorFunction",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/GeneratorFunction",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~GeneratorFunction",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 46,
+    "kind": "external",
+    "name": "Reflect",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Reflect",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Reflect",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 47,
+    "kind": "external",
+    "name": "Proxy",
+    "externalLink": "https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Proxy",
+    "memberof": "src/.external-ecmascript.js",
+    "static": true,
+    "longname": "src/.external-ecmascript.js~Proxy",
+    "access": "public",
+    "description": "",
+    "builtinExternal": true
+  },
+  {
+    "__docId__": 48,
+    "kind": "file",
+    "name": "src/actions/index.js",
+    "content": "import * as types from '../constants/ActionTypes'\nimport { sagaMiddleware, store } from '../store'\nimport handleNewMessage from '../sagas'\nimport setupSocket from '../sockets'\nimport { userServices } from '../services/auth'\n\nlet nextMessageId = 0\nconst nextUserId = 0\n\nexport const addMessage = (message, author) => ({\n  type: types.ADD_MESSAGE,\n  id: nextMessageId++,\n  message,\n  author\n})\n\nexport const messageReceived = (message, author) => ({\n  type: types.MESSAGE_RECEIVED,\n  id: nextMessageId++,\n  message,\n  author\n})\n\nexport const populateUsersList = users => ({\n  type: types.USERS_LIST,\n  users\n})\n\nexport const loginActions = (username, password) => {\n  const socket = setupSocket(store.dispatch, username)\n\n  sagaMiddleware.run(handleNewMessage, { socket, username })\n  userServices.login(username, password)\n  return {\n    type: types.LOGIN_SUCCESS,\n    username\n  }\n}\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/actions/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 49,
+    "kind": "variable",
+    "name": "nextMessageId",
+    "memberof": "src/actions/index.js",
+    "static": true,
+    "longname": "src/actions/index.js~nextMessageId",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/actions/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 50,
+    "kind": "variable",
+    "name": "nextUserId",
+    "memberof": "src/actions/index.js",
+    "static": true,
+    "longname": "src/actions/index.js~nextUserId",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/actions/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "number"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 51,
+    "kind": "function",
+    "name": "addMessage",
+    "memberof": "src/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/index.js~addMessage",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/actions/index.js",
+    "importStyle": "{addMessage}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "params": [
+      {
+        "name": "message",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "author",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 52,
+    "kind": "function",
+    "name": "messageReceived",
+    "memberof": "src/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/index.js~messageReceived",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/actions/index.js",
+    "importStyle": "{messageReceived}",
+    "description": null,
+    "lineNumber": 17,
+    "undocument": true,
+    "params": [
+      {
+        "name": "message",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "author",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 53,
+    "kind": "function",
+    "name": "populateUsersList",
+    "memberof": "src/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/index.js~populateUsersList",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/actions/index.js",
+    "importStyle": "{populateUsersList}",
+    "description": null,
+    "lineNumber": 24,
+    "undocument": true,
+    "params": [
+      {
+        "name": "users",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 54,
+    "kind": "function",
+    "name": "loginActions",
+    "memberof": "src/actions/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/actions/index.js~loginActions",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/actions/index.js",
+    "importStyle": "{loginActions}",
+    "description": null,
+    "lineNumber": 29,
+    "undocument": true,
+    "params": [
+      {
+        "name": "username",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "password",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"type\": *, \"username\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 55,
+    "kind": "file",
+    "name": "src/App.js",
+    "content": "import React from 'react'\nimport { Route, Switch } from 'react-router-dom'\n\nimport './App.css'\nimport { connectedLoginPage } from './containers/Login'\nimport ChatRoom from './components/ChatRoom'\nimport PrivateRoute from './components/Root'\n\nconst App = () => (\n\n  <div id=\"container\">\n    <Switch>\n      <PrivateRoute exact path=\"/\" component={ChatRoom} />\n      <Route path=\"/login\" component={connectedLoginPage} />\n    </Switch>\n\n  </div>\n)\n\nexport default App\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/App.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 56,
+    "kind": "function",
+    "name": "App",
+    "memberof": "src/App.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/App.js~App",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/App.js",
+    "importStyle": "App",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 57,
+    "kind": "file",
+    "name": "src/components/AddMessage.js",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\nconst AddMessage = (props) => {\n  let input\n\n  return (\n    <section id=\"new-message\">\n      <input\n        onKeyPress={(e) => {\n        if (e.key === 'Enter') {\n          props.dispatch(input.value, 'Me')\n          input.value = ''\n        }\n      }}\n        type=\"text\"\n        ref={(node) => {\n        input = node\n      }}\n      />\n    </section>\n  )\n}\n\nAddMessage.propTypes = {\n  dispatch: PropTypes.func.isRequired\n}\n\nexport default AddMessage\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/AddMessage.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 58,
+    "kind": "function",
+    "name": "AddMessage",
+    "memberof": "src/components/AddMessage.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/AddMessage.js~AddMessage",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/AddMessage.js",
+    "importStyle": "AddMessage",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "props",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 59,
+    "kind": "file",
+    "name": "src/components/ChatRoom.js",
+    "content": "import React from 'react'\nimport '../App.css'\nimport { Sidebar } from '../containers/Sidebar'\nimport { MessagesList } from '../containers/MessagesList'\nimport { AddMessage } from '../containers/AddMessage'\n\nconst ChatRoom = () => (\n  <div id=\"container\">\n    <Sidebar />\n    <section id=\"main\">\n      <MessagesList />\n      <AddMessage />\n    </section>\n  </div>\n)\n\nexport default ChatRoom\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/ChatRoom.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 60,
+    "kind": "function",
+    "name": "ChatRoom",
+    "memberof": "src/components/ChatRoom.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/ChatRoom.js~ChatRoom",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/ChatRoom.js",
+    "importStyle": "ChatRoom",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 61,
+    "kind": "file",
+    "name": "src/components/Login.js",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport { Redirect } from 'react-router-dom'\n\n\nclass LoginPage extends React.Component {\n  constructor(props) {\n    super(props)\n\n    this.state = {\n      username: '',\n      password: '',\n      submitted: false,\n      toDashboard: false\n    }\n\n    this.handleChange = this.handleChange.bind(this)\n    this.handleSubmit = this.handleSubmit.bind(this)\n  }\n\n  handleChange(e) {\n    const { name, value } = e.target\n    this.setState({ [name]: value })\n  }\n\n  handleSubmit(e) {\n    e.preventDefault()\n    this.setState({ submitted: true })\n    const { username, password } = this.state\n    if (username && password) {\n      this.props.dispatch(username, password)\n      this.setState({ toDashboard: true })\n    }\n  }\n\n  render() {\n    const { loggingIn } = this.props\n    const { username, password, submitted } = this.state\n    if (this.state.toDashboard === true) {\n      return <Redirect to=\"/\" />\n    }\n    return (\n      <div className=\"col-md-6 col-md-offset-3\">\n        <h2>Login</h2>\n        <form name=\"form\" onSubmit={this.handleSubmit}>\n          <div className={`form-group${submitted && !username ? ' has-error' : ''}`}>\n            <label htmlFor=\"username\">Username</label>\n            <input\n              type=\"text\"\n              className=\"form-control\"\n              name=\"username\"\n              value={username}\n              onChange={this.handleChange}\n            />\n            {submitted && !username &&\n            <div className=\"help-block\">Username is required</div>\n                        }\n          </div>\n          <div className={`form-group${submitted && !password ? ' has-error' : ''}`}>\n            <label htmlFor=\"password\">Password</label>\n            <input\n              type=\"password\"\n              className=\"form-control\"\n              name=\"password\"\n              value={password}\n              onChange={this.handleChange}\n            />\n            {submitted && !password &&\n            <div className=\"help-block\">Password is required</div>\n                        }\n          </div>\n          <div className=\"form-group\">\n            <button className=\"btn btn-primary\">Login</button>\n            {loggingIn &&\n            <img\n              alt=\"\"\n              src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n            />\n                        }\n          </div>\n        </form>\n      </div>\n    )\n  }\n}\n\nLoginPage.propTypes = {\n  dispatch: PropTypes.func.isRequired\n}\n\nexport default LoginPage\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/Login.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 62,
+    "kind": "class",
+    "name": "LoginPage",
+    "memberof": "src/components/Login.js",
+    "static": true,
+    "longname": "src/components/Login.js~LoginPage",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/Login.js",
+    "importStyle": "LoginPage",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "interface": false,
+    "extends": [
+      "react~React.Component"
+    ]
+  },
+  {
+    "__docId__": 63,
+    "kind": "constructor",
+    "name": "constructor",
+    "memberof": "src/components/Login.js~LoginPage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Login.js~LoginPage#constructor",
+    "access": "public",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true
+  },
+  {
+    "__docId__": 64,
+    "kind": "member",
+    "name": "state",
+    "memberof": "src/components/Login.js~LoginPage",
+    "static": false,
+    "longname": "src/components/Login.js~LoginPage#state",
+    "access": "public",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"username\": *, \"password\": *, \"submitted\": *, \"toDashboard\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 67,
+    "kind": "method",
+    "name": "handleChange",
+    "memberof": "src/components/Login.js~LoginPage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Login.js~LoginPage#handleChange",
+    "access": "public",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 68,
+    "kind": "method",
+    "name": "handleSubmit",
+    "memberof": "src/components/Login.js~LoginPage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Login.js~LoginPage#handleSubmit",
+    "access": "public",
+    "description": null,
+    "lineNumber": 26,
+    "undocument": true,
+    "params": [
+      {
+        "name": "e",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 69,
+    "kind": "method",
+    "name": "render",
+    "memberof": "src/components/Login.js~LoginPage",
+    "generator": false,
+    "async": false,
+    "static": false,
+    "longname": "src/components/Login.js~LoginPage#render",
+    "access": "public",
+    "description": null,
+    "lineNumber": 36,
+    "undocument": true,
+    "params": [],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 70,
+    "kind": "file",
+    "name": "src/components/Message.js",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\nconst Message = ({ message, author }) => (\n  <p>\n    <i>{author}</i>: {message}\n  </p>\n)\n\nMessage.propTypes = {\n  message: PropTypes.string.isRequired,\n  author: PropTypes.string.isRequired\n}\n\nexport default Message\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/Message.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 71,
+    "kind": "function",
+    "name": "Message",
+    "memberof": "src/components/Message.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Message.js~Message",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/Message.js",
+    "importStyle": "Message",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"message\": *, \"author\": *}"
+        ],
+        "defaultRaw": {
+          "message": null,
+          "author": null
+        },
+        "defaultValue": "{\"message\":null,\"author\":null}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 72,
+    "kind": "file",
+    "name": "src/components/MessagesList.js",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport Message from './Message'\n\nconst MessagesList = ({ messages }) => (\n  <section id=\"messages-list\">\n    <ul>\n      {messages.map(message => (\n        <Message\n          key={message.id}\n          {...message}\n        />\n    ))}\n    </ul>\n  </section>\n)\n\nMessagesList.propTypes = {\n  messages: PropTypes.arrayOf(PropTypes.shape({\n    id: PropTypes.number.isRequired,\n    message: PropTypes.string.isRequired,\n    author: PropTypes.string.isRequired\n  }).isRequired).isRequired\n}\n\nexport default MessagesList\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/MessagesList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 73,
+    "kind": "function",
+    "name": "MessagesList",
+    "memberof": "src/components/MessagesList.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/MessagesList.js~MessagesList",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/MessagesList.js",
+    "importStyle": "MessagesList",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"messages\": *}"
+        ],
+        "defaultRaw": {
+          "messages": null
+        },
+        "defaultValue": "{\"messages\":null}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 74,
+    "kind": "file",
+    "name": "src/components/Root.js",
+    "content": "import React from 'react'\nimport { Redirect, Route } from 'react-router-dom'\n\nconst PrivateRoute = ({ component: Component, ...rest }) => (\n  <Route\n    {...rest}\n    render={props => (localStorage.getItem('user')\n                ? <Component {...props} />\n                : <Redirect to={{ pathname: '/login', state: { from: props.location } }} />)}\n  />\n)\nexport default PrivateRoute\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/Root.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 75,
+    "kind": "function",
+    "name": "PrivateRoute",
+    "memberof": "src/components/Root.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Root.js~PrivateRoute",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/Root.js",
+    "importStyle": "PrivateRoute",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"component\": *, ...rest: Object}"
+        ],
+        "defaultRaw": {
+          "component": null,
+          "rest": {}
+        },
+        "defaultValue": "{\"component\":null,\"rest\":{}}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 76,
+    "kind": "file",
+    "name": "src/components/Sidebar.js",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\nconst Sidebar = ({ users }) => (\n  <aside id=\"sidebar\" className=\"sidebar\">\n    <ul>\n      {users.map(user => (\n        <li key={user.id}>{user.name}</li>\n      ))}\n    </ul>\n  </aside>\n)\n\nSidebar.propTypes = {\n  users: PropTypes.arrayOf(PropTypes.shape({\n    id: PropTypes.number.isRequired,\n    name: PropTypes.string.isRequired\n  }).isRequired).isRequired\n}\n\nexport default Sidebar\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/components/Sidebar.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 77,
+    "kind": "function",
+    "name": "Sidebar",
+    "memberof": "src/components/Sidebar.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/components/Sidebar.js~Sidebar",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/components/Sidebar.js",
+    "importStyle": "Sidebar",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "objectPattern",
+        "types": [
+          "{\"users\": *}"
+        ],
+        "defaultRaw": {
+          "users": null
+        },
+        "defaultValue": "{\"users\":null}"
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 78,
+    "kind": "file",
+    "name": "src/constants/ActionTypes.js",
+    "content": "export const ADD_MESSAGE = 'ADD_MESSAGE'\nexport const MESSAGE_RECEIVED = 'MESSAGE_RECEIVED'\nexport const ADD_USER = 'ADD_USER'\nexport const USERS_LIST = 'USERS_LIST'\nexport const CHANGE_USERNAME = 'CHANGE_USERNAME'\nexport const LOGIN_REQUEST = 'USERS_LOGIN_REQUEST'\nexport const LOGIN_SUCCESS = 'USERS_LOGIN_SUCCESS'\nexport const LOGIN_FAILURE = 'USERS_LOGIN_FAILURE'\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/constants/ActionTypes.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 79,
+    "kind": "variable",
+    "name": "ADD_MESSAGE",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~ADD_MESSAGE",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{ADD_MESSAGE}",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 80,
+    "kind": "variable",
+    "name": "MESSAGE_RECEIVED",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~MESSAGE_RECEIVED",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{MESSAGE_RECEIVED}",
+    "description": null,
+    "lineNumber": 2,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 81,
+    "kind": "variable",
+    "name": "ADD_USER",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~ADD_USER",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{ADD_USER}",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 82,
+    "kind": "variable",
+    "name": "USERS_LIST",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~USERS_LIST",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{USERS_LIST}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 83,
+    "kind": "variable",
+    "name": "CHANGE_USERNAME",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~CHANGE_USERNAME",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{CHANGE_USERNAME}",
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 84,
+    "kind": "variable",
+    "name": "LOGIN_REQUEST",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~LOGIN_REQUEST",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{LOGIN_REQUEST}",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 85,
+    "kind": "variable",
+    "name": "LOGIN_SUCCESS",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~LOGIN_SUCCESS",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{LOGIN_SUCCESS}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 86,
+    "kind": "variable",
+    "name": "LOGIN_FAILURE",
+    "memberof": "src/constants/ActionTypes.js",
+    "static": true,
+    "longname": "src/constants/ActionTypes.js~LOGIN_FAILURE",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/constants/ActionTypes.js",
+    "importStyle": "{LOGIN_FAILURE}",
+    "description": null,
+    "lineNumber": 8,
+    "undocument": true,
+    "type": {
+      "types": [
+        "string"
+      ]
+    }
+  },
+  {
+    "__docId__": 87,
+    "kind": "file",
+    "name": "src/containers/AddMessage.js",
+    "content": "import { connect } from 'react-redux'\nimport AddMessageComponent from '../components/AddMessage'\nimport { addMessage } from '../actions'\n\nconst mapDispatchToProps = dispatch => ({\n  dispatch: (message, author) => {\n    dispatch(addMessage(message, author))\n  }\n})\n\nexport const AddMessage = connect(() => ({}), mapDispatchToProps)(AddMessageComponent)\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/containers/AddMessage.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 88,
+    "kind": "function",
+    "name": "mapDispatchToProps",
+    "memberof": "src/containers/AddMessage.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/containers/AddMessage.js~mapDispatchToProps",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/containers/AddMessage.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dispatch",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 89,
+    "kind": "variable",
+    "name": "AddMessage",
+    "memberof": "src/containers/AddMessage.js",
+    "static": true,
+    "longname": "src/containers/AddMessage.js~AddMessage",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/containers/AddMessage.js",
+    "importStyle": "{AddMessage}",
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 90,
+    "kind": "file",
+    "name": "src/containers/Login.js",
+    "content": "import { connect } from 'react-redux'\nimport LoginComponent from '../components/Login'\nimport { loginActions } from '../actions'\n\nfunction mapStateToProps(state) {\n  const { loggingIn } = state.authentication\n  return {\n    loggingIn\n  }\n}\n\nconst mapDispatchToProps = dispatch => ({\n  dispatch: (username, password) => {\n    dispatch(loginActions(username, password))\n  }\n})\n\nexport const connectedLoginPage = connect(mapStateToProps, mapDispatchToProps)(LoginComponent)\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/containers/Login.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 91,
+    "kind": "function",
+    "name": "mapStateToProps",
+    "memberof": "src/containers/Login.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/containers/Login.js~mapStateToProps",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/containers/Login.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "{\"loggingIn\": *}"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 92,
+    "kind": "function",
+    "name": "mapDispatchToProps",
+    "memberof": "src/containers/Login.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/containers/Login.js~mapDispatchToProps",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/containers/Login.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dispatch",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 93,
+    "kind": "variable",
+    "name": "connectedLoginPage",
+    "memberof": "src/containers/Login.js",
+    "static": true,
+    "longname": "src/containers/Login.js~connectedLoginPage",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/containers/Login.js",
+    "importStyle": "{connectedLoginPage}",
+    "description": null,
+    "lineNumber": 18,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 94,
+    "kind": "file",
+    "name": "src/containers/MessagesList.js",
+    "content": "import { connect } from 'react-redux'\nimport MessagesListComponent from '../components/MessagesList'\n\nexport const MessagesList = connect(state => ({\n  messages: state.messages\n}), {})(MessagesListComponent)\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/containers/MessagesList.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 95,
+    "kind": "variable",
+    "name": "MessagesList",
+    "memberof": "src/containers/MessagesList.js",
+    "static": true,
+    "longname": "src/containers/MessagesList.js~MessagesList",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/containers/MessagesList.js",
+    "importStyle": "{MessagesList}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 96,
+    "kind": "file",
+    "name": "src/containers/Sidebar.js",
+    "content": "import { connect } from 'react-redux'\nimport SidebarComponent from '../components/Sidebar'\n\nexport const Sidebar = connect(state => ({\n  users: state.users\n}), {})(SidebarComponent)\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/containers/Sidebar.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 97,
+    "kind": "variable",
+    "name": "Sidebar",
+    "memberof": "src/containers/Sidebar.js",
+    "static": true,
+    "longname": "src/containers/Sidebar.js~Sidebar",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/containers/Sidebar.js",
+    "importStyle": "{Sidebar}",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 98,
+    "kind": "file",
+    "name": "src/index.js",
+    "content": "import React from 'react'\nimport ReactDOM from 'react-dom'\nimport { Provider } from 'react-redux'\nimport { BrowserRouter } from 'react-router-dom'\nimport { userServices } from './services/auth'\nimport { store } from './store'\n\nimport './index.css'\nimport App from './App'\nimport registerServiceWorker from './registerServiceWorker'\n\nconst st = store\nuserServices.logout()\n\nReactDOM.render(\n  <Provider store={st}>\n    <BrowserRouter>\n      <App />\n    </BrowserRouter>\n  </Provider>,\n  document.getElementById('root')\n)\nregisterServiceWorker()\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 99,
+    "kind": "variable",
+    "name": "st",
+    "memberof": "src/index.js",
+    "static": true,
+    "longname": "src/index.js~st",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/index.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 12,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 100,
+    "kind": "file",
+    "name": "src/reducers/authentication.js",
+    "content": "import * as types from '../constants/ActionTypes'\n\n\nconst user = JSON.parse(localStorage.getItem('user'))\nconst initialState = user ? { loggedIn: true, user } : {}\n\nfunction authentication(state = initialState, action) {\n  switch (action.type) {\n    case types.LOGIN_REQUEST:\n      return {\n        loggingIn: true,\n        user: action.user\n      }\n    case types.LOGIN_SUCCESS:\n      return {\n        loggedIn: true,\n        user: action.user\n      }\n    default:\n      return state\n  }\n}\n\nexport default authentication\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/reducers/authentication.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 101,
+    "kind": "variable",
+    "name": "user",
+    "memberof": "src/reducers/authentication.js",
+    "static": true,
+    "longname": "src/reducers/authentication.js~user",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/reducers/authentication.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 102,
+    "kind": "variable",
+    "name": "initialState",
+    "memberof": "src/reducers/authentication.js",
+    "static": true,
+    "longname": "src/reducers/authentication.js~initialState",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/reducers/authentication.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 5,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 103,
+    "kind": "function",
+    "name": "authentication",
+    "memberof": "src/reducers/authentication.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reducers/authentication.js~authentication",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/reducers/authentication.js",
+    "importStyle": "authentication",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*"
+        ],
+        "defaultRaw": "initialState",
+        "defaultValue": "initialState"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 104,
+    "kind": "file",
+    "name": "src/reducers/index.js",
+    "content": "import {combineReducers} from 'redux'\nimport messages from './messages'\nimport users from './users'\nimport authentication from './authentication'\n\nconst chat = combineReducers({\n  messages,\n    users,\n    authentication\n});\n\nexport default chat\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/reducers/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 105,
+    "kind": "variable",
+    "name": "chat",
+    "memberof": "src/reducers/index.js",
+    "static": true,
+    "longname": "src/reducers/index.js~chat",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/reducers/index.js",
+    "importStyle": "chat",
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 106,
+    "kind": "file",
+    "name": "src/reducers/messages.js",
+    "content": "const messages = (state = [], action) => {\n  switch (action.type) {\n    case 'ADD_MESSAGE':\n    case 'MESSAGE_RECEIVED':\n      return state.concat([\n        {\n          message: action.message,\n          author: action.author,\n          id: action.id\n        }\n      ])\n    default:\n      return state\n  }\n}\n\nexport default messages\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/reducers/messages.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 107,
+    "kind": "function",
+    "name": "messages",
+    "memberof": "src/reducers/messages.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reducers/messages.js~messages",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/reducers/messages.js",
+    "importStyle": "messages",
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 108,
+    "kind": "file",
+    "name": "src/reducers/users.js",
+    "content": "import * as types from '../constants/ActionTypes'\n\nconst users = (state = [], action) => {\n  switch (action.type) {\n    case types.USERS_LIST:\n      const uniqueNames = action.users.filter((val, id, array) => {\n        console.log(arguments)\n        return val\n      })\n\n      return action.users\n    default:\n      return state\n  }\n}\n\nexport default users\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/reducers/users.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 109,
+    "kind": "function",
+    "name": "users",
+    "memberof": "src/reducers/users.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/reducers/users.js~users",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/reducers/users.js",
+    "importStyle": "users",
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "params": [
+      {
+        "name": "state",
+        "optional": true,
+        "types": [
+          "*[]"
+        ],
+        "defaultRaw": [],
+        "defaultValue": "[]"
+      },
+      {
+        "name": "action",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 110,
+    "kind": "file",
+    "name": "src/registerServiceWorker.js",
+    "content": "// In production, we register a service worker to serve assets from local cache.\n\n// This lets the app load faster on subsequent visits in production, and gives\n// it offline capabilities. However, it also means that developers (and users)\n// will only see deployed updates on the \"N+1\" visit to a page, since previously\n// cached resources are updated in the background.\n\n// To learn more about the benefits of this model, read https://goo.gl/KwvDNy.\n// This link also includes instructions on opting out of this behavior.\n\nconst isLocalhost = Boolean(\n  window.location.hostname === 'localhost' ||\n    // [::1] is the IPv6 localhost address.\n    window.location.hostname === '[::1]' ||\n    // 127.0.0.1/8 is considered localhost for IPv4.\n    window.location.hostname.match(\n      /^127(?:\\.(?:25[0-5]|2[0-4][0-9]|[01]?[0-9][0-9]?)){3}$/\n    )\n);\n\nexport default function register() {\n  if (process.env.NODE_ENV === 'production' && 'serviceWorker' in navigator) {\n    // The URL constructor is available in all browsers that support SW.\n    const publicUrl = new URL(process.env.PUBLIC_URL, window.location);\n    if (publicUrl.origin !== window.location.origin) {\n      // Our service worker won't work if PUBLIC_URL is on a different origin\n      // from what our page is served on. This might happen if a CDN is used to\n      // serve assets; see https://github.com/facebookincubator/create-react-app/issues/2374\n      return;\n    }\n\n    window.addEventListener('load', () => {\n      const swUrl = `${process.env.PUBLIC_URL}/service-worker.js`;\n\n      if (!isLocalhost) {\n        // Is not local host. Just register service worker\n        registerValidSW(swUrl);\n      } else {\n        // This is running on localhost. Lets check if a service worker still exists or not.\n        checkValidServiceWorker(swUrl);\n      }\n    });\n  }\n}\n\nfunction registerValidSW(swUrl) {\n  navigator.serviceWorker\n    .register(swUrl)\n    .then(registration => {\n      registration.onupdatefound = () => {\n        const installingWorker = registration.installing;\n        installingWorker.onstatechange = () => {\n          if (installingWorker.state === 'installed') {\n            if (navigator.serviceWorker.controller) {\n              // At this point, the old content will have been purged and\n              // the fresh content will have been added to the cache.\n              // It's the perfect time to display a \"New content is\n              // available; please refresh.\" message in your web app.\n              console.log('New content is available; please refresh.');\n            } else {\n              // At this point, everything has been precached.\n              // It's the perfect time to display a\n              // \"Content is cached for offline use.\" message.\n              console.log('Content is cached for offline use.');\n            }\n          }\n        };\n      };\n    })\n    .catch(error => {\n      console.error('Error during service worker registration:', error);\n    });\n}\n\nfunction checkValidServiceWorker(swUrl) {\n  // Check if the service worker can be found. If it can't reload the page.\n  fetch(swUrl)\n    .then(response => {\n      // Ensure service worker exists, and that we really are getting a JS file.\n      if (\n        response.status === 404 ||\n        response.headers.get('content-type').indexOf('javascript') === -1\n      ) {\n        // No service worker found. Probably a different app. Reload the page.\n        navigator.serviceWorker.ready.then(registration => {\n          registration.unregister().then(() => {\n            window.location.reload();\n          });\n        });\n      } else {\n        // Service worker found. Proceed as normal.\n        registerValidSW(swUrl);\n      }\n    })\n    .catch(() => {\n      console.log(\n        'No internet connection found. App is running in offline mode.'\n      );\n    });\n}\n\nexport function unregister() {\n  if ('serviceWorker' in navigator) {\n    navigator.serviceWorker.ready.then(registration => {\n      registration.unregister();\n    });\n  }\n}\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/registerServiceWorker.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 111,
+    "kind": "variable",
+    "name": "isLocalhost",
+    "memberof": "src/registerServiceWorker.js",
+    "static": true,
+    "longname": "src/registerServiceWorker.js~isLocalhost",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 11,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 112,
+    "kind": "function",
+    "name": "register",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~register",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/registerServiceWorker.js",
+    "importStyle": "register",
+    "description": null,
+    "lineNumber": 21,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 113,
+    "kind": "function",
+    "name": "registerValidSW",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~registerValidSW",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 46,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 114,
+    "kind": "function",
+    "name": "checkValidServiceWorker",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~checkValidServiceWorker",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/registerServiceWorker.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 75,
+    "undocument": true,
+    "params": [
+      {
+        "name": "swUrl",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 115,
+    "kind": "function",
+    "name": "unregister",
+    "memberof": "src/registerServiceWorker.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/registerServiceWorker.js~unregister",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/registerServiceWorker.js",
+    "importStyle": "{unregister}",
+    "description": null,
+    "lineNumber": 102,
+    "undocument": true,
+    "params": [],
+    "return": null
+  },
+  {
+    "__docId__": 116,
+    "kind": "file",
+    "name": "src/sagas/index.js",
+    "content": "import { takeEvery } from 'redux-saga/effects'\nimport * as types from '../constants/ActionTypes'\n\nconst handleNewMessage = function* handleNewMessage(params) {\n  yield takeEvery(types.ADD_MESSAGE, (action) => {\n    action.author = params.username\n    params.socket.send(JSON.stringify(action))\n  })\n}\n\nexport default handleNewMessage\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/sagas/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 117,
+    "kind": "function",
+    "name": "handleNewMessage",
+    "memberof": "src/sagas/index.js",
+    "generator": true,
+    "async": false,
+    "static": true,
+    "longname": "src/sagas/index.js~handleNewMessage",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/sagas/index.js",
+    "importStyle": "handleNewMessage",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "params",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": null
+  },
+  {
+    "__docId__": 118,
+    "kind": "file",
+    "name": "src/services/auth.js",
+    "content": "function login(username, password) {\n  localStorage.setItem('user', JSON.stringify(username))\n  return username\n}\n\nfunction logout() {\n  localStorage.removeItem('user')\n}\n\nexport const userServices = {\n  login,\n  logout\n}\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/services/auth.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 119,
+    "kind": "function",
+    "name": "login",
+    "memberof": "src/services/auth.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/services/auth.js~login",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/services/auth.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 1,
+    "undocument": true,
+    "params": [
+      {
+        "name": "username",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "password",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "__docId__": 120,
+    "kind": "function",
+    "name": "logout",
+    "memberof": "src/services/auth.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/services/auth.js~logout",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/services/auth.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 6,
+    "undocument": true,
+    "params": [],
+    "return": null,
+    "ignore": true
+  },
+  {
+    "__docId__": 121,
+    "kind": "variable",
+    "name": "userServices",
+    "memberof": "src/services/auth.js",
+    "static": true,
+    "longname": "src/services/auth.js~userServices",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/services/auth.js",
+    "importStyle": "{userServices}",
+    "description": null,
+    "lineNumber": 10,
+    "undocument": true,
+    "type": {
+      "types": [
+        "{\"login\": *, \"logout\": *}"
+      ]
+    }
+  },
+  {
+    "__docId__": 122,
+    "kind": "file",
+    "name": "src/sockets/index.js",
+    "content": "import * as types from '../constants/ActionTypes'\nimport { messageReceived, populateUsersList } from '../actions'\n\nconst setupSocket = (dispatch, username) => {\n  const socket = new WebSocket('ws://localhost:8989')\n\n  socket.onopen = () => {\n    socket.send(JSON.stringify({\n      type: types.ADD_USER,\n      name: username\n    }))\n  }\n  socket.onmessage = (event) => {\n    const data = JSON.parse(event.data)\n    switch (data.type) {\n      case types.ADD_MESSAGE:\n        dispatch(messageReceived(data.message, data.author))\n        break\n      case types.USERS_LIST:\n        dispatch(populateUsersList(data.users))\n        break\n      default:\n        break\n    }\n  }\n\n  return socket\n}\n\nexport default setupSocket\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/sockets/index.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 123,
+    "kind": "function",
+    "name": "setupSocket",
+    "memberof": "src/sockets/index.js",
+    "generator": false,
+    "async": false,
+    "static": true,
+    "longname": "src/sockets/index.js~setupSocket",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/sockets/index.js",
+    "importStyle": "setupSocket",
+    "description": null,
+    "lineNumber": 4,
+    "undocument": true,
+    "params": [
+      {
+        "name": "dispatch",
+        "types": [
+          "*"
+        ]
+      },
+      {
+        "name": "username",
+        "types": [
+          "*"
+        ]
+      }
+    ],
+    "return": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 124,
+    "kind": "file",
+    "name": "src/store.js",
+    "content": "import { applyMiddleware, createStore } from 'redux'\nimport createSagaMiddleware from 'redux-saga'\n\nimport reducers from './reducers'\n\n\nexport const sagaMiddleware = createSagaMiddleware()\n\nexport const store = createStore(\n  reducers,\n  applyMiddleware(sagaMiddleware)\n)\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/store.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 125,
+    "kind": "variable",
+    "name": "sagaMiddleware",
+    "memberof": "src/store.js",
+    "static": true,
+    "longname": "src/store.js~sagaMiddleware",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/store.js",
+    "importStyle": "{sagaMiddleware}",
+    "description": null,
+    "lineNumber": 7,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 126,
+    "kind": "variable",
+    "name": "store",
+    "memberof": "src/store.js",
+    "static": true,
+    "longname": "src/store.js~store",
+    "access": "public",
+    "export": true,
+    "importPath": "chat-1/src/store.js",
+    "importStyle": "{store}",
+    "description": null,
+    "lineNumber": 9,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    }
+  },
+  {
+    "__docId__": 127,
+    "kind": "file",
+    "name": "src/utils/name.js",
+    "content": "import Chance from 'chance'\n\nconst chance = new Chance()\nexport default chance.first()\n\n",
+    "static": true,
+    "longname": "C:/WebStormProjects/WSTM/src/utils/name.js",
+    "access": "public",
+    "description": null,
+    "lineNumber": 1
+  },
+  {
+    "__docId__": 128,
+    "kind": "variable",
+    "name": "chance",
+    "memberof": "src/utils/name.js",
+    "static": true,
+    "longname": "src/utils/name.js~chance",
+    "access": "public",
+    "export": false,
+    "importPath": "chat-1/src/utils/name.js",
+    "importStyle": null,
+    "description": null,
+    "lineNumber": 3,
+    "undocument": true,
+    "type": {
+      "types": [
+        "*"
+      ]
+    },
+    "ignore": true
+  },
+  {
+    "kind": "index",
+    "content": "# WSTM\r\nProjekt na przedmiot Technologie Multimedialne na 6 semestrze Politechniki Rzeszowskiej\r\n\r\n![Gantt](https://i.imgur.com/Uk9avRc.png)\r\n",
+    "longname": "C:\\WebStormProjects\\WSTM\\README.md",
+    "name": "./README.md",
+    "static": true,
+    "access": "public"
+  },
+  {
+    "kind": "packageJSON",
+    "content": "{\n  \"name\": \"chat-1\",\n  \"version\": \"0.1.0\",\n  \"private\": true,\n  \"dependencies\": {\n    \"chance\": \"^1.0.11\",\n    \"esdoc\": \"^1.1.0\",\n    \"esdoc-ecmascript-proposal-plugin\": \"^1.0.0\",\n    \"esdoc-jsx-plugin\": \"^1.0.0\",\n    \"esdoc-standard-plugin\": \"^1.0.0\",\n    \"eslint\": \"^4.9.0\",\n    \"eslint-config-airbnb\": \"^16.0.0\",\n    \"eslint-plugin-import\": \"^2.7.0\",\n    \"eslint-plugin-jsx-a11y\": \"^6.0.2\",\n    \"eslint-plugin-react\": \"^7.4.0\",\n    \"express\": \"^4.16.3\",\n    \"pg\": \"^7.4.3\",\n    \"pg-hstore\": \"^2.3.2\",\n    \"prop-types\": \"*\",\n    \"react\": \"^16.0.0\",\n    \"react-dom\": \"^16.0.0\",\n    \"react-redux\": \"^5.0.6\",\n    \"react-router-dom\": \"^4.3.1\",\n    \"react-scripts\": \"1.0.14\",\n    \"redux\": \"^3.7.2\",\n    \"redux-saga\": \"^0.15.6\",\n    \"sequelize\": \"^4.37.10\",\n    \"ws\": \"^3.2.0\"\n  },\n  \"scripts\": {\n    \"start\": \"react-scripts start\",\n    \"build\": \"react-scripts build\",\n    \"test\": \"react-scripts test --env=jsdom\",\n    \"eject\": \"react-scripts eject\",\n    \"docs\": \"./node_modules/.bin/esdoc -c esdoc.json\"\n  },\n  \"devDependencies\": {\n    \"babel-jest\": \"^21.2.0\",\n    \"enzyme\": \"^3.1.0\",\n    \"enzyme-adapter-react-16\": \"^1.0.1\",\n    \"jest\": \"21.3.0-beta.2\",\n    \"jest-environment-jsdom\": \"^21.2.1\",\n    \"react-test-renderer\": \"^16.0.0\"\n  }\n}\n",
+    "longname": "C:\\WebStormProjects\\WSTM\\package.json",
+    "name": "package.json",
+    "static": true,
+    "access": "public"
+  }
+]

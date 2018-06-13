@@ -40,3 +40,6 @@ Ze względu na użycie najnowszych technologii front-end aplikacja kliencka wyst
 Udało się również zachować zasady czystego kodu. Większość nazw funkcji i zmiennych jest łatwo identyfikowalna, a przez to łatwa w późniejszej modyfikacji. Wiele dostępnych funkcji jest typu czystego, a więc działa tylko na obiektach dostępnych w zakresie swojego własnego działania. Udało się napisać testy jednostkowe do wszystkich podstawowych widoków. Udało się również zastosować bezstanowe podejście do obiektów tworzonych przez React.js, co jest nowoczesnym i pożądanym podejściem.
 
 ![Finalny Gantt](https://i.imgur.com/krsxNdD.png)
+
+## Licencja
+Projekt dostępny jest na licencji MIT, sprawdź [LICENSE.MD](LICENSE.md).

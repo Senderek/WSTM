@@ -29,7 +29,7 @@
         "ecmaVersion": 6,
         "sourceType": "module",
         "ecmaFeatures": {
-            "arrowFunctions": true,
+          "arrowFunctions": false,
             "blockBindings": true,
             "classes": true,
             "defaultParams": true,

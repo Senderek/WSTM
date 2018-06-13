@@ -1,16 +1,19 @@
 import React from 'react'
+import { Route, Switch } from 'react-router-dom'
+
 import './App.css'
-import { Sidebar } from './containers/Sidebar'
-import { MessagesList } from './containers/MessagesList'
-import { AddMessage } from './containers/AddMessage'
+import { connectedLoginPage } from './containers/Login'
+import ChatRoom from './components/ChatRoom'
+import PrivateRoute from './components/Root'
 
 const App = () => (
+
   <div id="container">
-    <Sidebar />
-    <section id="main">
-      <MessagesList />
-      <AddMessage />
-    </section>
+    <Switch>
+      <PrivateRoute exact path="/" component={ChatRoom} />
+      <Route path="/login" component={connectedLoginPage} />
+    </Switch>
+
   </div>
 )
 

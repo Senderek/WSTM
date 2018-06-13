@@ -1,4 +1,8 @@
 import * as types from '../constants/ActionTypes'
+import { sagaMiddleware, store } from '../store'
+import handleNewMessage from '../sagas'
+import setupSocket from '../sockets'
+import { userServices } from '../services/auth'
 
 let nextMessageId = 0
 const nextUserId = 0
@@ -21,3 +25,14 @@ export const populateUsersList = users => ({
   type: types.USERS_LIST,
   users
 })
+
+export const loginActions = (username, password) => {
+  const socket = setupSocket(store.dispatch, username)
+
+  sagaMiddleware.run(handleNewMessage, { socket, username })
+  userServices.login(username, password)
+  return {
+    type: types.LOGIN_SUCCESS,
+    username
+  }
+}

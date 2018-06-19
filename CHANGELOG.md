@@ -5,15 +5,15 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
 # Webchat
 
-## [1.0.4 - 2018-06-20](https://github.com/Senderek/WSTM)
+## [1.0.4 - 2018-06-20](https://github.com/Senderek/WSTM/5b49f75e256720d409e402880336c8f298fd3e48)
 ### Dodane
- - Odnośniki do poszczególnych commitów w pliku CHANGELOG
+ - Komentarze do klas React, akcji oraz zmiennych statycznych.
  
 ## 1.0.3 - 2018-06-20
 ### Dodane
  - Komentarze do wygenerowania dokumentacji
 
-## [1.0.1 - 2018-06-20](https://github.com/Senderek/WSTM/commit/7bfb7dd9ffa8d35ac6a4b2122d502550a36d3919)
+## [1.0.1 - 2018-06-20](https://github.com/Senderek/WSTM/commit/0296fdb4b531aff51338673c1b169d71993e9661)
 ### Dodane
  - Wersjonowanie zmian w projekcie za pomocą pliku CHANGELOG.md
 

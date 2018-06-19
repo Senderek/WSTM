@@ -2,6 +2,10 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import Message from './Message'
 
+/**
+ * Klasa wizualnego komponentu listy wiadomości. Visual component of message list.
+ * @reactProps {array} messages - Właściwość przechowująca wiadomości. Property holding messages.
+ */
 const MessagesList = ({ messages }) => (
   <section id="messages-list">
     <ul>

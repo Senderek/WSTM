@@ -567,7 +567,7 @@
     "__docId__": 48,
     "kind": "file",
     "name": "src/actions/index.js",
-    "content": "import * as types from '../constants/ActionTypes'\nimport { sagaMiddleware, store } from '../store'\nimport handleNewMessage from '../sagas'\nimport setupSocket from '../sockets'\nimport { userServices } from '../services/auth'\n\nlet nextMessageId = 0\nconst nextUserId = 0\n\nexport const addMessage = (message, author) => ({\n  type: types.ADD_MESSAGE,\n  id: nextMessageId++,\n  message,\n  author\n})\n\nexport const messageReceived = (message, author) => ({\n  type: types.MESSAGE_RECEIVED,\n  id: nextMessageId++,\n  message,\n  author\n})\n\nexport const populateUsersList = users => ({\n  type: types.USERS_LIST,\n  users\n})\n\nexport const loginActions = (username, password) => {\n  const socket = setupSocket(store.dispatch, username)\n\n  sagaMiddleware.run(handleNewMessage, { socket, username })\n  userServices.login(username, password)\n  return {\n    type: types.LOGIN_SUCCESS,\n    username\n  }\n}\n",
+    "content": "import * as types from '../constants/ActionTypes'\nimport { sagaMiddleware, store } from '../store'\nimport handleNewMessage from '../sagas'\nimport setupSocket from '../sockets'\nimport { userServices } from '../services/auth'\n\nlet nextMessageId = 0\nconst nextUserId = 0\n\n/**\n * Action that reflectes adding a message.\n * @param {string} message Message payload.\n * @param {string} author Author username.\n * @return {object}\n */\nexport const addMessage = (message, author) => ({\n  type: types.ADD_MESSAGE,\n  id: nextMessageId++,\n  message,\n  author\n})\n/**\n * Action for handling receiving a message.\n * @param {string} message Message payload.\n * @param {string} author Author username.\n * @return {object}\n */\nexport const messageReceived = (message, author) => ({\n  type: types.MESSAGE_RECEIVED,\n  id: nextMessageId++,\n  message,\n  author\n})\n/**\n * Action that handles changing current user list.\n * @param {array} users Payload of users list.\n * @return {object}\n */\nexport const populateUsersList = users => ({\n  type: types.USERS_LIST,\n  users\n})\n/**\n * Handles logging in new user.\n * @param {string} username User desired username.\n * @param {string} password User password.\n * @return {object}\n */\nexport const loginActions = (username, password) => {\n  const socket = setupSocket(store.dispatch, username)\n\n  sagaMiddleware.run(handleNewMessage, { socket, username })\n  userServices.login(username, password)\n  return {\n    type: types.LOGIN_SUCCESS,\n    username\n  }\n}\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/actions/index.js",
     "access": "public",
@@ -629,24 +629,38 @@
     "export": true,
     "importPath": "chat-1/src/actions/index.js",
     "importStyle": "{addMessage}",
-    "description": null,
-    "lineNumber": 10,
-    "undocument": true,
+    "description": "Action that reflectes adding a message.",
+    "lineNumber": 16,
     "params": [
       {
-        "name": "message",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Message payload."
       },
       {
-        "name": "author",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "author",
+        "description": "Author username."
       }
     ],
-    "return": null
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": ""
+    }
   },
   {
     "__docId__": 52,
@@ -661,24 +675,38 @@
     "export": true,
     "importPath": "chat-1/src/actions/index.js",
     "importStyle": "{messageReceived}",
-    "description": null,
-    "lineNumber": 17,
-    "undocument": true,
+    "description": "Action for handling receiving a message.",
+    "lineNumber": 28,
     "params": [
       {
-        "name": "message",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "message",
+        "description": "Message payload."
       },
       {
-        "name": "author",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "author",
+        "description": "Author username."
       }
     ],
-    "return": null
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": ""
+    }
   },
   {
     "__docId__": 53,
@@ -693,18 +721,28 @@
     "export": true,
     "importPath": "chat-1/src/actions/index.js",
     "importStyle": "{populateUsersList}",
-    "description": null,
-    "lineNumber": 24,
-    "undocument": true,
+    "description": "Action that handles changing current user list.",
+    "lineNumber": 39,
     "params": [
       {
-        "name": "users",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "array"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "users",
+        "description": "Payload of users list."
       }
     ],
-    "return": null
+    "return": {
+      "nullable": null,
+      "types": [
+        "object"
+      ],
+      "spread": false,
+      "description": ""
+    }
   },
   {
     "__docId__": 54,
@@ -719,27 +757,37 @@
     "export": true,
     "importPath": "chat-1/src/actions/index.js",
     "importStyle": "{loginActions}",
-    "description": null,
-    "lineNumber": 29,
-    "undocument": true,
+    "description": "Handles logging in new user.",
+    "lineNumber": 49,
     "params": [
       {
-        "name": "username",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "username",
+        "description": "User desired username."
       },
       {
-        "name": "password",
+        "nullable": null,
         "types": [
-          "*"
-        ]
+          "string"
+        ],
+        "spread": false,
+        "optional": false,
+        "name": "password",
+        "description": "User password."
       }
     ],
     "return": {
+      "nullable": null,
       "types": [
-        "{\"type\": *, \"username\": *}"
-      ]
+        "object"
+      ],
+      "spread": false,
+      "description": ""
     }
   },
   {
@@ -776,7 +824,7 @@
     "__docId__": 57,
     "kind": "file",
     "name": "src/components/AddMessage.js",
-    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\nconst AddMessage = (props) => {\n  let input\n\n  return (\n    <section id=\"new-message\">\n      <input\n        onKeyPress={(e) => {\n        if (e.key === 'Enter') {\n          props.dispatch(input.value, 'Me')\n          input.value = ''\n        }\n      }}\n        type=\"text\"\n        ref={(node) => {\n        input = node\n      }}\n      />\n    </section>\n  )\n}\n\nAddMessage.propTypes = {\n  dispatch: PropTypes.func.isRequired\n}\n\nexport default AddMessage\n",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n/**\n * Klasa wizualnego komponentu pokoju czatowego. Visual component of chatroom.\n * @reactProps {func} dispatch - Funkcja składu pozwalająca na obsługe akcji. Store function for dispatching actions\n */\nconst AddMessage = (props) => {\n  let input\n\n  return (\n    <section id=\"new-message\">\n      <input\n        onKeyPress={(e) => {\n        if (e.key === 'Enter') {\n          props.dispatch(input.value, 'Me')\n          input.value = ''\n        }\n      }}\n        type=\"text\"\n        ref={(node) => {\n        input = node\n      }}\n      />\n    </section>\n  )\n}\n\nAddMessage.propTypes = {\n  dispatch: PropTypes.func.isRequired\n}\n\nexport default AddMessage\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/components/AddMessage.js",
     "access": "public",
@@ -796,9 +844,14 @@
     "export": true,
     "importPath": "chat-1/src/components/AddMessage.js",
     "importStyle": "AddMessage",
-    "description": null,
-    "lineNumber": 4,
-    "undocument": true,
+    "description": "Klasa wizualnego komponentu pokoju czatowego. Visual component of chatroom.",
+    "lineNumber": 7,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{func} dispatch - Funkcja składu pozwalająca na obsługe akcji. Store function for dispatching actions"
+      }
+    ],
     "params": [
       {
         "name": "props",
@@ -817,7 +870,7 @@
     "__docId__": 59,
     "kind": "file",
     "name": "src/components/ChatRoom.js",
-    "content": "import React from 'react'\nimport '../App.css'\nimport { Sidebar } from '../containers/Sidebar'\nimport { MessagesList } from '../containers/MessagesList'\nimport { AddMessage } from '../containers/AddMessage'\n\nconst ChatRoom = () => (\n  <div id=\"container\">\n    <Sidebar />\n    <section id=\"main\">\n      <MessagesList />\n      <AddMessage />\n    </section>\n  </div>\n)\n\nexport default ChatRoom\n",
+    "content": "import React from 'react'\nimport '../App.css'\nimport { Sidebar } from '../containers/Sidebar'\nimport { MessagesList } from '../containers/MessagesList'\nimport { AddMessage } from '../containers/AddMessage'\n\n/**\n * Klasa wizualnego komponentu pokoju czatowego. Visual component of chatroom.\n */\nconst ChatRoom = () => (\n  <div id=\"container\">\n    <Sidebar />\n    <section id=\"main\">\n      <MessagesList />\n      <AddMessage />\n    </section>\n  </div>\n)\n\nexport default ChatRoom\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/components/ChatRoom.js",
     "access": "public",
@@ -837,9 +890,8 @@
     "export": true,
     "importPath": "chat-1/src/components/ChatRoom.js",
     "importStyle": "ChatRoom",
-    "description": null,
-    "lineNumber": 7,
-    "undocument": true,
+    "description": "Klasa wizualnego komponentu pokoju czatowego. Visual component of chatroom.",
+    "lineNumber": 10,
     "params": [],
     "return": null
   },
@@ -847,7 +899,7 @@
     "__docId__": 61,
     "kind": "file",
     "name": "src/components/Login.js",
-    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport { Redirect } from 'react-router-dom'\n\n\nclass LoginPage extends React.Component {\n  constructor(props) {\n    super(props)\n\n    this.state = {\n      username: '',\n      password: '',\n      submitted: false,\n      toDashboard: false\n    }\n\n    this.handleChange = this.handleChange.bind(this)\n    this.handleSubmit = this.handleSubmit.bind(this)\n  }\n\n  handleChange(e) {\n    const { name, value } = e.target\n    this.setState({ [name]: value })\n  }\n\n  handleSubmit(e) {\n    e.preventDefault()\n    this.setState({ submitted: true })\n    const { username, password } = this.state\n    if (username && password) {\n      this.props.dispatch(username, password)\n      this.setState({ toDashboard: true })\n    }\n  }\n\n  render() {\n    const { loggingIn } = this.props\n    const { username, password, submitted } = this.state\n    if (this.state.toDashboard === true) {\n      return <Redirect to=\"/\" />\n    }\n    return (\n      <div className=\"col-md-6 col-md-offset-3\">\n        <h2>Login</h2>\n        <form name=\"form\" onSubmit={this.handleSubmit}>\n          <div className={`form-group${submitted && !username ? ' has-error' : ''}`}>\n            <label htmlFor=\"username\">Username</label>\n            <input\n              type=\"text\"\n              className=\"form-control\"\n              name=\"username\"\n              value={username}\n              onChange={this.handleChange}\n            />\n            {submitted && !username &&\n            <div className=\"help-block\">Username is required</div>\n                        }\n          </div>\n          <div className={`form-group${submitted && !password ? ' has-error' : ''}`}>\n            <label htmlFor=\"password\">Password</label>\n            <input\n              type=\"password\"\n              className=\"form-control\"\n              name=\"password\"\n              value={password}\n              onChange={this.handleChange}\n            />\n            {submitted && !password &&\n            <div className=\"help-block\">Password is required</div>\n                        }\n          </div>\n          <div className=\"form-group\">\n            <button className=\"btn btn-primary\">Login</button>\n            {loggingIn &&\n            <img\n              alt=\"\"\n              src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n            />\n                        }\n          </div>\n        </form>\n      </div>\n    )\n  }\n}\n\nLoginPage.propTypes = {\n  dispatch: PropTypes.func.isRequired\n}\n\nexport default LoginPage\n",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport { Redirect } from 'react-router-dom'\n\n/**\n* Klasa wizualnego komponentu formularza logowania. Visual component of login form.\n* @reactProps {!number} prop1 - this is prop1\n* @reactProps {string} prop2 - this is prop2\n*/\nclass LoginPage extends React.Component {\n  constructor(props) {\n    super(props)\n\n    this.state = {\n      username: '',\n      password: '',\n      submitted: false,\n      toDashboard: false\n    }\n\n    this.handleChange = this.handleChange.bind(this)\n    this.handleSubmit = this.handleSubmit.bind(this)\n  }\n\n  handleChange(e) {\n    const { name, value } = e.target\n    this.setState({ [name]: value })\n  }\n\n  handleSubmit(e) {\n    e.preventDefault()\n    this.setState({ submitted: true })\n    const { username, password } = this.state\n    if (username && password) {\n      this.props.dispatch(username, password)\n      this.setState({ toDashboard: true })\n    }\n  }\n\n  render() {\n    const { loggingIn } = this.props\n    const { username, password, submitted } = this.state\n    if (this.state.toDashboard === true) {\n      return <Redirect to=\"/\" />\n    }\n    return (\n      <div className=\"container-fluid p-3\">\n        <h2>Login</h2>\n        <form name=\"form\" onSubmit={this.handleSubmit}>\n          <div className={`form-group${submitted && !username ? ' has-error' : ''}`}>\n            <label htmlFor=\"username\">Username</label>\n            <input\n              type=\"text\"\n              className=\"form-control\"\n              name=\"username\"\n              value={username}\n              onChange={this.handleChange}\n            />\n            {submitted && !username &&\n            <div className=\"help-block\">Username is required</div>\n                        }\n          </div>\n          <div className={`form-group${submitted && !password ? ' has-error' : ''}`}>\n            <label htmlFor=\"password\">Password</label>\n            <input\n              type=\"password\"\n              className=\"form-control\"\n              name=\"password\"\n              value={password}\n              onChange={this.handleChange}\n            />\n            {submitted && !password &&\n            <div className=\"help-block\">Password is required</div>\n                        }\n          </div>\n          <div className=\"form-group\">\n            <button className=\"btn btn-primary\">Login</button>\n            {loggingIn &&\n            <img\n              alt=\"\"\n              src=\"data:image/gif;base64,R0lGODlhEAAQAPIAAP///wAAAMLCwkJCQgAAAGJiYoKCgpKSkiH/C05FVFNDQVBFMi4wAwEAAAAh/hpDcmVhdGVkIHdpdGggYWpheGxvYWQuaW5mbwAh+QQJCgAAACwAAAAAEAAQAAADMwi63P4wyklrE2MIOggZnAdOmGYJRbExwroUmcG2LmDEwnHQLVsYOd2mBzkYDAdKa+dIAAAh+QQJCgAAACwAAAAAEAAQAAADNAi63P5OjCEgG4QMu7DmikRxQlFUYDEZIGBMRVsaqHwctXXf7WEYB4Ag1xjihkMZsiUkKhIAIfkECQoAAAAsAAAAABAAEAAAAzYIujIjK8pByJDMlFYvBoVjHA70GU7xSUJhmKtwHPAKzLO9HMaoKwJZ7Rf8AYPDDzKpZBqfvwQAIfkECQoAAAAsAAAAABAAEAAAAzMIumIlK8oyhpHsnFZfhYumCYUhDAQxRIdhHBGqRoKw0R8DYlJd8z0fMDgsGo/IpHI5TAAAIfkECQoAAAAsAAAAABAAEAAAAzIIunInK0rnZBTwGPNMgQwmdsNgXGJUlIWEuR5oWUIpz8pAEAMe6TwfwyYsGo/IpFKSAAAh+QQJCgAAACwAAAAAEAAQAAADMwi6IMKQORfjdOe82p4wGccc4CEuQradylesojEMBgsUc2G7sDX3lQGBMLAJibufbSlKAAAh+QQJCgAAACwAAAAAEAAQAAADMgi63P7wCRHZnFVdmgHu2nFwlWCI3WGc3TSWhUFGxTAUkGCbtgENBMJAEJsxgMLWzpEAACH5BAkKAAAALAAAAAAQABAAAAMyCLrc/jDKSatlQtScKdceCAjDII7HcQ4EMTCpyrCuUBjCYRgHVtqlAiB1YhiCnlsRkAAAOwAAAAAAAAAAAA==\"\n            />\n                        }\n          </div>\n        </form>\n      </div>\n    )\n  }\n}\n\nLoginPage.propTypes = {\n  dispatch: PropTypes.func.isRequired\n}\n\nexport default LoginPage\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/components/Login.js",
     "access": "public",
@@ -865,9 +917,18 @@
     "export": true,
     "importPath": "chat-1/src/components/Login.js",
     "importStyle": "LoginPage",
-    "description": null,
-    "lineNumber": 6,
-    "undocument": true,
+    "description": "Klasa wizualnego komponentu formularza logowania. Visual component of login form.",
+    "lineNumber": 10,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{!number} prop1 - this is prop1"
+      },
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{string} prop2 - this is prop2"
+      }
+    ],
     "interface": false,
     "extends": [
       "react~React.Component"
@@ -884,7 +945,7 @@
     "longname": "src/components/Login.js~LoginPage#constructor",
     "access": "public",
     "description": null,
-    "lineNumber": 7,
+    "lineNumber": 11,
     "undocument": true
   },
   {
@@ -896,7 +957,7 @@
     "longname": "src/components/Login.js~LoginPage#state",
     "access": "public",
     "description": null,
-    "lineNumber": 10,
+    "lineNumber": 14,
     "undocument": true,
     "type": {
       "types": [
@@ -915,7 +976,7 @@
     "longname": "src/components/Login.js~LoginPage#handleChange",
     "access": "public",
     "description": null,
-    "lineNumber": 21,
+    "lineNumber": 25,
     "undocument": true,
     "params": [
       {
@@ -938,7 +999,7 @@
     "longname": "src/components/Login.js~LoginPage#handleSubmit",
     "access": "public",
     "description": null,
-    "lineNumber": 26,
+    "lineNumber": 30,
     "undocument": true,
     "params": [
       {
@@ -961,7 +1022,7 @@
     "longname": "src/components/Login.js~LoginPage#render",
     "access": "public",
     "description": null,
-    "lineNumber": 36,
+    "lineNumber": 40,
     "undocument": true,
     "params": [],
     "return": {
@@ -974,7 +1035,7 @@
     "__docId__": 70,
     "kind": "file",
     "name": "src/components/Message.js",
-    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\nconst Message = ({ message, author }) => (\n  <p>\n    <i>{author}</i>: {message}\n  </p>\n)\n\nMessage.propTypes = {\n  message: PropTypes.string.isRequired,\n  author: PropTypes.string.isRequired\n}\n\nexport default Message\n",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n/**\n * Klasa wizualnego komponentu wiadomości teskstowej. Visual component of text message form.\n * @reactProps {string} message - Właściwość przechowująca wiadomość. Property holding message payload.\n * @reactProps {string} author - Przechowująca autora wiadomości. Holds message author.\n */\nconst Message = ({ message, author }) => (\n  <p>\n    <i>{author}</i>: {message}\n  </p>\n)\n\nMessage.propTypes = {\n  message: PropTypes.string.isRequired,\n  author: PropTypes.string.isRequired\n}\n\nexport default Message\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/components/Message.js",
     "access": "public",
@@ -994,9 +1055,18 @@
     "export": true,
     "importPath": "chat-1/src/components/Message.js",
     "importStyle": "Message",
-    "description": null,
-    "lineNumber": 4,
-    "undocument": true,
+    "description": "Klasa wizualnego komponentu wiadomości teskstowej. Visual component of text message form.",
+    "lineNumber": 8,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{string} message - Właściwość przechowująca wiadomość. Property holding message payload."
+      },
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{string} author - Przechowująca autora wiadomości. Holds message author."
+      }
+    ],
     "params": [
       {
         "name": "objectPattern",
@@ -1016,7 +1086,7 @@
     "__docId__": 72,
     "kind": "file",
     "name": "src/components/MessagesList.js",
-    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport Message from './Message'\n\nconst MessagesList = ({ messages }) => (\n  <section id=\"messages-list\">\n    <ul>\n      {messages.map(message => (\n        <Message\n          key={message.id}\n          {...message}\n        />\n    ))}\n    </ul>\n  </section>\n)\n\nMessagesList.propTypes = {\n  messages: PropTypes.arrayOf(PropTypes.shape({\n    id: PropTypes.number.isRequired,\n    message: PropTypes.string.isRequired,\n    author: PropTypes.string.isRequired\n  }).isRequired).isRequired\n}\n\nexport default MessagesList\n",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\nimport Message from './Message'\n\n/**\n * Klasa wizualnego komponentu listy wiadomości. Visual component of message list.\n * @reactProps {array} messages - Właściwość przechowująca wiadomości. Property holding messages.\n */\nconst MessagesList = ({ messages }) => (\n  <section id=\"messages-list\">\n    <ul>\n      {messages.map(message => (\n        <Message\n          key={message.id}\n          {...message}\n        />\n    ))}\n    </ul>\n  </section>\n)\n\nMessagesList.propTypes = {\n  messages: PropTypes.arrayOf(PropTypes.shape({\n    id: PropTypes.number.isRequired,\n    message: PropTypes.string.isRequired,\n    author: PropTypes.string.isRequired\n  }).isRequired).isRequired\n}\n\nexport default MessagesList\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/components/MessagesList.js",
     "access": "public",
@@ -1036,9 +1106,14 @@
     "export": true,
     "importPath": "chat-1/src/components/MessagesList.js",
     "importStyle": "MessagesList",
-    "description": null,
-    "lineNumber": 5,
-    "undocument": true,
+    "description": "Klasa wizualnego komponentu listy wiadomości. Visual component of message list.",
+    "lineNumber": 9,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{array} messages - Właściwość przechowująca wiadomości. Property holding messages."
+      }
+    ],
     "params": [
       {
         "name": "objectPattern",
@@ -1099,7 +1174,7 @@
     "__docId__": 76,
     "kind": "file",
     "name": "src/components/Sidebar.js",
-    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\nconst Sidebar = ({ users }) => (\n  <aside id=\"sidebar\" className=\"sidebar\">\n    <ul>\n      {users.map(user => (\n        <li key={user.id}>{user.name}</li>\n      ))}\n    </ul>\n  </aside>\n)\n\nSidebar.propTypes = {\n  users: PropTypes.arrayOf(PropTypes.shape({\n    id: PropTypes.number.isRequired,\n    name: PropTypes.string.isRequired\n  }).isRequired).isRequired\n}\n\nexport default Sidebar\n",
+    "content": "import React from 'react'\nimport PropTypes from 'prop-types'\n\n/**\n * Klasa wizualnego komponentu panelu bocznego. Visual component of sidebar.\n * @reactProps {array} users - Przechowuje liste aktywnych użytkowników. Holds active users list.\n */\n\nconst Sidebar = ({ users }) => (\n  <aside id=\"sidebar\" className=\"sidebar\">\n    <ul>\n      {users.map(user => (\n        <li key={user.id}>{user.name}</li>\n      ))}\n    </ul>\n  </aside>\n)\n\nSidebar.propTypes = {\n  users: PropTypes.arrayOf(PropTypes.shape({\n    id: PropTypes.number.isRequired,\n    name: PropTypes.string.isRequired\n  }).isRequired).isRequired\n}\n\nexport default Sidebar\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/components/Sidebar.js",
     "access": "public",
@@ -1119,9 +1194,14 @@
     "export": true,
     "importPath": "chat-1/src/components/Sidebar.js",
     "importStyle": "Sidebar",
-    "description": null,
-    "lineNumber": 4,
-    "undocument": true,
+    "description": "Klasa wizualnego komponentu panelu bocznego. Visual component of sidebar.",
+    "lineNumber": 9,
+    "unknown": [
+      {
+        "tagName": "@reactProps",
+        "tagValue": "{array} users - Przechowuje liste aktywnych użytkowników. Holds active users list."
+      }
+    ],
     "params": [
       {
         "name": "objectPattern",
@@ -1140,7 +1220,7 @@
     "__docId__": 78,
     "kind": "file",
     "name": "src/constants/ActionTypes.js",
-    "content": "export const ADD_MESSAGE = 'ADD_MESSAGE'\nexport const MESSAGE_RECEIVED = 'MESSAGE_RECEIVED'\nexport const ADD_USER = 'ADD_USER'\nexport const USERS_LIST = 'USERS_LIST'\nexport const CHANGE_USERNAME = 'CHANGE_USERNAME'\nexport const LOGIN_REQUEST = 'USERS_LOGIN_REQUEST'\nexport const LOGIN_SUCCESS = 'USERS_LOGIN_SUCCESS'\nexport const LOGIN_FAILURE = 'USERS_LOGIN_FAILURE'\n",
+    "content": "/**\n * Contaier file for storing constats: action constants.\n */\nexport const ADD_MESSAGE = 'ADD_MESSAGE'\nexport const MESSAGE_RECEIVED = 'MESSAGE_RECEIVED'\nexport const ADD_USER = 'ADD_USER'\nexport const USERS_LIST = 'USERS_LIST'\nexport const CHANGE_USERNAME = 'CHANGE_USERNAME'\nexport const LOGIN_REQUEST = 'USERS_LOGIN_REQUEST'\nexport const LOGIN_SUCCESS = 'USERS_LOGIN_SUCCESS'\nexport const LOGIN_FAILURE = 'USERS_LOGIN_FAILURE'\n",
     "static": true,
     "longname": "C:/WebStormProjects/WSTM/src/constants/ActionTypes.js",
     "access": "public",
@@ -1158,9 +1238,8 @@
     "export": true,
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{ADD_MESSAGE}",
-    "description": null,
-    "lineNumber": 1,
-    "undocument": true,
+    "description": "Contaier file for storing constats: action constants.",
+    "lineNumber": 4,
     "type": {
       "types": [
         "string"
@@ -1179,7 +1258,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{MESSAGE_RECEIVED}",
     "description": null,
-    "lineNumber": 2,
+    "lineNumber": 5,
     "undocument": true,
     "type": {
       "types": [
@@ -1199,7 +1278,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{ADD_USER}",
     "description": null,
-    "lineNumber": 3,
+    "lineNumber": 6,
     "undocument": true,
     "type": {
       "types": [
@@ -1219,7 +1298,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{USERS_LIST}",
     "description": null,
-    "lineNumber": 4,
+    "lineNumber": 7,
     "undocument": true,
     "type": {
       "types": [
@@ -1239,7 +1318,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{CHANGE_USERNAME}",
     "description": null,
-    "lineNumber": 5,
+    "lineNumber": 8,
     "undocument": true,
     "type": {
       "types": [
@@ -1259,7 +1338,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{LOGIN_REQUEST}",
     "description": null,
-    "lineNumber": 6,
+    "lineNumber": 9,
     "undocument": true,
     "type": {
       "types": [
@@ -1279,7 +1358,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{LOGIN_SUCCESS}",
     "description": null,
-    "lineNumber": 7,
+    "lineNumber": 10,
     "undocument": true,
     "type": {
       "types": [
@@ -1299,7 +1378,7 @@
     "importPath": "chat-1/src/constants/ActionTypes.js",
     "importStyle": "{LOGIN_FAILURE}",
     "description": null,
-    "lineNumber": 8,
+    "lineNumber": 11,
     "undocument": true,
     "type": {
       "types": [
@@ -2152,7 +2231,7 @@
   },
   {
     "kind": "index",
-    "content": "# WSTM\r\nProjekt na przedmiot Technologie Multimedialne na 6 semestrze Politechniki Rzeszowskiej\r\n\r\n![Gantt](https://i.imgur.com/Uk9avRc.png)\r\n",
+    "content": "# WSTM\r\nProjekt na przedmiot Technologie Multimedialne na 6 semestrze Politechniki Rzeszowskiej\r\n\r\n![Gantt](https://i.imgur.com/Uk9avRc.png)\r\n\r\n## Temat projektu:\r\n\r\nPodstawowym założeniem projektu było stworzenie działającego komunikatora, dzięki któremu dwie osoby mogłyby wysyłać do siebie wiadomości w postaci niesformatowanego tekstu.\r\n\r\n## Podsumowanie:\r\n\r\nImplementacja projektu „Webchat\" zakończyła się sukcesem. Udało się stworzyć działającą aplikację obsługująca porozumiewanie się nieograniczonej liczby osób. Lista rozmawiających jest wyświetlana w czasie rzeczywistym i aktualizowana również w przypadku opuszczenia przez użytkownika pokoju rozmów. Użytkownicy na starcie wybierają wyświetlaną nazwę, pod jaką będą występować z punktu widzenia innych rozmawiających.\r\n\r\n## Co zadziałało:\r\n\r\nPodczas wykonywania projektu za największy sukces uznaję się wykonanie minimalnego działającego produktu już przy pierwszej iteracji programistycznej.\r\n\r\nW projekcie sprawdziło się podejście modułowe, dzięki czemu nowe funkcjonalności oraz usprawniona technologia dodawana była stopniowo, co zaowocowało przejrzystym i działającym kodem na każdym etapie produkcji.\r\n\r\nPierwszym krokiem milowym było stworzenie widoku pokoju czatowego w strukturze React.js. Następnie dodana została część serwerowa, napisana przy użyciu Node.js. Następnie dodany został wzorzec projektowy „Flux\", a co za tym idzie biblioteka Redux.js, idealnie pasująca do jednostronnie przepływającego strumienia danych. Następnie stworzono moduł w części funkcjonalnej za pomocą biblioteki obsługującej WebSockets. Dzięki temu uzyskano połączenie użytkowników w czasie rzeczywistym. Udało się również zaimplementować część testów jednostkowych dla poszczególnych widoków. Na końcu stworzony został moduł logowania po stronie front-end.\r\n\r\n## Wnioski:\r\n\r\nMimo krótkiego czasu wykonywania projektu (24 godziny) wyciągnięto szereg wniosków, które mogą ułatwić wykonywanie przyszłych projektów. Ze względu na niedoświadczenie przy pisaniu aplikacji użytkowych tracono wiele czasu na testowanie różnych rozwiązań i wybieranie tych, które najlepiej pasują do danego typu problemu. Jednym z pierwszych zwycięstw było odkrycie alternatywnych menadżerów paczek, takich Yarn czy Webpack. Poszerzyło to mocno zakres materiału odpowiedniego do wykorzystania w projekcie. Kolejnym było porównanie dostępnych bibliotek obsługujących WebSockets. Ze względu na małą skale projektu większość dostępnych rozwiązań wydawała się odpowiednia, jednak na końcu zdecydowano się na ws.js, kompaktowej lecz niezwykle wydajnej biblioteki na licencji MIT. Wartym wzmianki jest również problem, jaki wystąpił z automatycznymi weryfikatorami poprawności oraz czystości kodu takimi jak Eslint.js. Mimo swoich bezapelacyjnych zalet często zawadzały one podczas wykonywania projektu, ze względu na niekonsekwentne podążanie za wzorcami.\r\n\r\nNa końcu warto wspomnieć o etapie, na jakim zakończył się projekt. Ze względu na ograniczenie czasowe nie została zaimplementowana baza danych. Mimo to, zostało przeprowadzone rozpoznanie w technologiach dostępnych i wybrany został PostGreSQL, ze względu na swoją wydajność przy dużej ilości powtarzalnych danych oraz zaufanie wśród środowiska open-source. Rozważane na początku rozwiązania NoSQL zostały odrzucone ze względu na wydajność. Najszybszym do zaimplementowania rozwiązania byłą by prawdopodobnie baza MongoDb, opierająca się właśnie na technologiach NoSQL. Kolejną rozważaną opcją była baza danych kierowana wydarzeniami. Koncept ten miał się opierać na zapisywaniu wszystkich akcji użytkowników i na tej podstawie wyciąganiu potrzebnych informacji. Został jednak odrzucony ze względu na zbyt duże skomplikowanie implementacji. Ze względu jednak na tą ciekawą koncepcję w projekcie znajduję „saga\", czyli wzorzec opierający się na obsługiwaniu logiki za pomocą wydarzeń, gdzie dla każdej transakcji może zostać wykonana kontr transakcja cofająca dotychczasowe zmiany.\r\n\r\nMyśląc jeszcze dalej w przyszłość w planach mogło by być niezliczona ilość funkcjonalności, takich jak:\r\n- tworzenie własnych (prywatnych) pokoi czatowych,\r\n- zapis historii użytkowników,\r\n- interfejs programistyczny aplikacji udostępniający wszystkie funkcjonalności (np. CRUD),\r\n- czatowanie nie tylko za pomocą tekstu ale również np. obrazków\r\n- motywy wizualne po stronie użytkownika (personalizacja)\r\n- panel administratora pokoju czatowego\r\n\r\n## Optymalizacja oraz czysty kod:\r\n\r\nZe względu na użycie najnowszych technologii front-end aplikacja kliencka występuje w formie SPA (ang. Single Page Application, pol. aplikacja jednej strony), dlatego po pierwszym, inicjalnym ładowaniu na przeciętnym sprzęcie użytkowym czas odpowiedzi jest niezauważalny. Dodatkowo ze względu na jednostronny przepływ danych („Flux\"), w każdym momencie stan aplikacji jest łatwo sprawdzalny. Dodatkowo podczas dynamicznych zmian na obiektowym modelu dokumentu (ang. DOM), ponownie rysowane na ekranie są tylko te elementy, które uległy jakiejś zmianie.\r\n\r\nUdało się również zachować zasady czystego kodu. Większość nazw funkcji i zmiennych jest łatwo identyfikowalna, a przez to łatwa w późniejszej modyfikacji. Wiele dostępnych funkcji jest typu czystego, a więc działa tylko na obiektach dostępnych w zakresie swojego własnego działania. Udało się napisać testy jednostkowe do wszystkich podstawowych widoków. Udało się również zastosować bezstanowe podejście do obiektów tworzonych przez React.js, co jest nowoczesnym i pożądanym podejściem.\r\n\r\n![Finalny Gantt](https://i.imgur.com/krsxNdD.png)\r\n\r\n## Licencja\r\nProjekt dostępny jest na licencji MIT, sprawdź [LICENSE.MD](LICENSE.md).",
     "longname": "C:\\WebStormProjects\\WSTM\\README.md",
     "name": "./README.md",
     "static": true,

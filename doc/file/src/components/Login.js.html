@@ -73,7 +73,11 @@
 import PropTypes from &apos;prop-types&apos;
 import { Redirect } from &apos;react-router-dom&apos;
 
-
+/**
+* Klasa wizualnego komponentu formularza logowania. Visual component of login form.
+* @reactProps {!number} prop1 - this is prop1
+* @reactProps {string} prop2 - this is prop2
+*/
 class LoginPage extends React.Component {
   constructor(props) {
     super(props)
@@ -111,7 +115,7 @@ class LoginPage extends React.Component {
       return &lt;Redirect to=&quot;/&quot; /&gt;
     }
     return (
-      &lt;div className=&quot;col-md-6 col-md-offset-3&quot;&gt;
+      &lt;div className=&quot;container-fluid p-3&quot;&gt;
         &lt;h2&gt;Login&lt;/h2&gt;
         &lt;form name=&quot;form&quot; onSubmit={this.handleSubmit}&gt;
           &lt;div className={`form-group${submitted &amp;&amp; !username ? &apos; has-error&apos; : &apos;&apos;}`}&gt;

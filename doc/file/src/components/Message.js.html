@@ -71,7 +71,11 @@
 <div class="content" data-ice="content"><h1 data-ice="title">src/components/Message.js</h1>
 <pre class="source-code line-number raw-source-code"><code class="prettyprint linenums" data-ice="content">import React from &apos;react&apos;
 import PropTypes from &apos;prop-types&apos;
-
+/**
+ * Klasa wizualnego komponentu wiadomo&#x15B;ci teskstowej. Visual component of text message form.
+ * @reactProps {string} message - W&#x142;a&#x15B;ciwo&#x15B;&#x107; przechowuj&#x105;ca wiadomo&#x15B;&#x107;. Property holding message payload.
+ * @reactProps {string} author - Przechowuj&#x105;ca autora wiadomo&#x15B;ci. Holds message author.
+ */
 const Message = ({ message, author }) =&gt; (
   &lt;p&gt;
     &lt;i&gt;{author}&lt;/i&gt;: {message}

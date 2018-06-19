@@ -2,7 +2,11 @@ import React from 'react'
 import PropTypes from 'prop-types'
 import { Redirect } from 'react-router-dom'
 
-
+/**
+* Klasa wizualnego komponentu formularza logowania. Visual component of login form.
+* @reactProps {!number} prop1 - this is prop1
+* @reactProps {string} prop2 - this is prop2
+*/
 class LoginPage extends React.Component {
   constructor(props) {
     super(props)

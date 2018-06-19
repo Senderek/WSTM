@@ -1,6 +1,11 @@
 import React from 'react'
 import PropTypes from 'prop-types'
 
+/**
+ * Klasa wizualnego komponentu panelu bocznego. Visual component of sidebar.
+ * @reactProps {array} users - Przechowuje liste aktywnych użytkowników. Holds active users list.
+ */
+
 const Sidebar = ({ users }) => (
   <aside id="sidebar" className="sidebar">
     <ul>

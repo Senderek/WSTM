@@ -1,18 +1,14 @@
 {
-  "coverage": "0%",
+  "coverage": "20.37%",
   "expectCount": 54,
-  "actualCount": 0,
+  "actualCount": 11,
   "files": {
     "src/actions/index.js": {
       "expectCount": 6,
-      "actualCount": 0,
+      "actualCount": 4,
       "undocumentLines": [
         7,
-        8,
-        10,
-        17,
-        24,
-        29
+        8
       ]
     },
     "src/App.js": {
@@ -24,43 +20,34 @@
     },
     "src/components/AddMessage.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        4
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/components/ChatRoom.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        7
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/components/Login.js": {
       "expectCount": 6,
-      "actualCount": 0,
+      "actualCount": 1,
       "undocumentLines": [
-        6,
-        7,
-        10,
-        21,
-        26,
-        36
+        11,
+        14,
+        25,
+        30,
+        40
       ]
     },
     "src/components/Message.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        4
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/components/MessagesList.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        5
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/components/Root.js": {
       "expectCount": 1,
@@ -71,23 +58,20 @@
     },
     "src/components/Sidebar.js": {
       "expectCount": 1,
-      "actualCount": 0,
-      "undocumentLines": [
-        4
-      ]
+      "actualCount": 1,
+      "undocumentLines": []
     },
     "src/constants/ActionTypes.js": {
       "expectCount": 8,
-      "actualCount": 0,
+      "actualCount": 1,
       "undocumentLines": [
-        1,
-        2,
-        3,
-        4,
         5,
         6,
         7,
-        8
+        8,
+        9,
+        10,
+        11
       ]
     },
     "src/containers/AddMessage.js": {

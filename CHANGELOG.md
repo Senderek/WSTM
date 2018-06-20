@@ -5,7 +5,7 @@ The format is based on [Keep a Changelog](http://keepachangelog.com/en/1.0.0/)
 
 # Webchat
 
-## [1.0.4 - 2018-06-20](https://github.com/Senderek/WSTM/5b49f75e256720d409e402880336c8f298fd3e48)
+## [1.0.4 - 2018-06-20](https://github.com/Senderek/WSTM/0375d4ad96cf32f049a85456ef16dd9a346cbe59)
 ### Dodane
  - Komentarze do klas React, akcji oraz zmiennych statycznych.
  
